@@ -176,16 +176,16 @@ export const CandidateModal = ({ candidate, onClose, onStatusUpdate }) => {
                     zIndex: isResumeExpanded ? 1002 : 1,
                 }}
               >
-                <iframe
-                    src="https://drive.google.com/file/d/1uiMliYik2KTIgOuf3d7DReoBvu52TP7B/preview"
-                    width="100%"
-                    height="100%"
-                    style={{
-                        border: "none",
-                    }}
-                    title={`${candidate.name}'s Resume`}
-                    allow="autoplay"
-                />
+          <iframe
+  src="https://drive.google.com/file/d/1Y0TiL8RADm0ehpI2nE3w4zOCGDFKDKS7/preview"
+  width="100%"
+  height="100%"
+  style={{ border: "none" }}
+  title={`${candidate.name}'s Resume`}
+  allow="autoplay"
+/>
+
+
               </div>
             </div> 
             </Grid>
